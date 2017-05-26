@@ -2,6 +2,7 @@
 
 1. In tampermonkey (for chrome) install the following userscript:
 
+```
 // ==UserScript==
 // @name         NAP
 // @namespace    IB
@@ -13,6 +14,7 @@
 // @grant       GM_setValue
 // @grant       GM_xmlhttpRequest
 // ==/UserScript==
+```
 
 2. Go to IB > Reports > Activity > Statements
 3. Select "Year to Date" option and click "View"
