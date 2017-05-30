@@ -1,3 +1,15 @@
+// ==UserScript==
+// @name         NAP
+// @namespace    IB
+// @version      0.2
+// @match        https://*.interactivebrokers.com/*
+// @match        https://inetdec.nra.bg/*
+// @require https://code.jquery.com/jquery-3.2.1.min.js
+// @grant       GM_getValue
+// @grant       GM_setValue
+// @grant       GM_xmlhttpRequest
+// ==/UserScript==
+
 var timeout = 100;
 var ibAssistantId = "ibAssistant";
 var napAssistantId = "napAssistant";
